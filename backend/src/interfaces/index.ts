@@ -1,0 +1,1 @@
+// Essa pasta contém as interfaces TypeScript que representam os dados que a API irá manipular. Por exemplo, a estrutura de uma marcação de horário (Entry) ou a jornada de trabalho semanal (WorkSchedule). Ter essas interfaces centralizadas nessa pasta garante que todos os arquivos da aplicação usem o mesmo tipo de dado, o que evita erros e facilita o desenvolvimento.

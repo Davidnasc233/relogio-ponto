@@ -1,0 +1,1 @@
+// armazena os valores de configuração

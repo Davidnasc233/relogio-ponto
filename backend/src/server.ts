@@ -1,0 +1,1 @@
+// Define as configurações de porta, variáveis de ambiente (como a string de conexão do banco de dados) e qualquer outro parâmetro que possa mudar dependendo do ambiente (desenvolvimento, produção, etc.). Separar isso do código principal evita que você precise alterar o código-fonte toda vez que for para outro ambiente.
