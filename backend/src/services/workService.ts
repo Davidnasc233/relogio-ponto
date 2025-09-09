@@ -1,0 +1,3 @@
+// Aqui você coloca toda a lógica de negócio. É aqui que a função calculateDepartureTime será implementada. Esta camada é independente dos controladores ou das rotas, o que a torna fácil de testar. A função, por exemplo, não sabe de onde vêm os dados (seja de uma requisição HTTP ou de outro serviço); ela simplesmente executa o cálculo e retorna o resultado.
+
+// Esta é a camada mais importante, onde a lógica de negócio da sua aplicação reside.
