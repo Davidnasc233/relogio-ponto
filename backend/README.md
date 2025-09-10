@@ -7,7 +7,6 @@
 - [Marcações de Ponto](#marcações-de-ponto)
 - [Cálculo de Horário de Saída](#cálculo-de-horário-de-saída)
 
----
 
 ## Autenticação
 
@@ -45,7 +44,6 @@ Content-Type: application/json
   "error": "Credenciais inválidas."
 }
 
----
 
 ### POST `/api/auth/forgot-password`
 Envia e-mail para recuperação de senha.
@@ -69,7 +67,6 @@ Envia e-mail para recuperação de senha.
   "error": "Usuário não encontrado."
 }
 
----
 
 ### POST `/api/auth/reset-password`
 Redefine a senha do usuário.
@@ -94,7 +91,6 @@ Redefine a senha do usuário.
   "error": "Token inválido ou expirado."
 }
 
----
 
 ## Usuários
 
@@ -124,7 +120,6 @@ Cria um novo usuário.
   "error": "E-mail já cadastrado."
 }
 
----
 
 ## Jornada de Trabalho
 
@@ -157,7 +152,6 @@ Authorization: Bearer <jwt_token>
   "error": "Usuário não encontrado."
 }
 
----
 
 ### PUT `/api/work-schedule/:userId`
 Atualiza a jornada de trabalho do usuário.
@@ -194,7 +188,6 @@ Authorization: Bearer <jwt_token>
   "error": "Dados inválidos."
 }
 
----
 
 ## Marcações de Ponto
 
@@ -226,7 +219,6 @@ Authorization: Bearer <jwt_token>
   "error": "Formato de data inválido."
 }
 
----
 
 ### GET `/api/work-entries/:userId?date=2025-09-10`
 Busca todas as marcações de um usuário em um dia.
@@ -255,7 +247,6 @@ Authorization: Bearer <jwt_token>
   "error": "Usuário não encontrado."
 }
 
----
 
 ### DELETE `/api/work-entries/:userId/:entryId`
 Remove uma marcação de ponto.
@@ -277,7 +268,6 @@ Authorization: Bearer <jwt_token>
   "error": "Marcação não encontrada."
 }
 
----
 
 ## Cálculo de Horário de Saída
 
@@ -327,7 +317,3 @@ Authorization: Bearer <jwt_token>
 {
   "error": "Dados insuficientes para cálculo."
 }
-
----
-
-Se quiser a documentação em formato Swagger/OpenAPI, posso gerar o arquivo YAML/JSON. Se precisar de exemplos de erros, headers ou autenticação JWT, só pedir!
